@@ -33,6 +33,7 @@ const useSrcs = () => {
 };
 
 export default function App() {
+  /*
   const { buttons, image } = useSrcs();
 
   return (
@@ -42,4 +43,6 @@ export default function App() {
       {buttons}
     </div>
   );
+  */
+  return <Canvas />;
 }
