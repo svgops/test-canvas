@@ -34,7 +34,7 @@ export default function Canvas() {
         //ctx.filter = "contrast(1.4) sepia(1)";
         ctx.drawImage(img, 0, 0);
         img.style.display = "none";
-        ctx.filter = "grayscale(0.9)";
+        ctx.filter = "grayscale(0.98)";
 
         //ctx.filter = "blur(4px)";
         /*
