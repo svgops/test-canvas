@@ -31,17 +31,18 @@ export default function Canvas() {
         //ctx.strokeRect(75, 140, 150, 110);
         //ctx.fillRect(130, 190, 40, 60);
         //ctx.filter = "contrast(1.4) sepia(1) drop-shadow(9px 9px 2px #e81)";
-        ctx.filter = "contrast(1.4) sepia(1)";
-
+        //ctx.filter = "contrast(1.4) sepia(1)";
         ctx.drawImage(img, 0, 0);
+        img.style.display = "none";
+        ctx.filter = "grayscale(0.9)";
 
         //ctx.filter = "blur(4px)";
         /*
-        var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-        var data = imageData.data;
+        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        const data = imageData.data;
 
-        for (var i = 0; i < data.length; i += 4) {
-          var avg = (data[i] + data[i + 1] + data[i + 2]) / 3;
+        for (let i = 0; i < data.length; i += 4) {
+          let avg = (data[i] + data[i + 1] + data[i + 2]) / 3;
           data[i] = avg; // red
           data[i + 1] = avg; // green
           data[i + 2] = avg; // blue
