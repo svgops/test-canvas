@@ -1,14 +1,12 @@
 import React from "react";
 import "./styles.css";
 import Canvas from "./Canvas";
-import Example from "./ergita-sela-rose.jpg";
+import Image from "./Image";
 
 export default function App() {
   return (
     <div className="App">
-      <img ref="image" src={Example} alt="MyImage" />
-      <Canvas />
-      <div className="Test" />
+      <Image url="https://unsplash.com/photos/rvCCi0GUpFI" />
     </div>
   );
 }
