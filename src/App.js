@@ -5,9 +5,11 @@ import Image from "./Image";
 import "./styles.css";
 
 const srcs = [
-  "https://images.unsplash.com/photo-1551923922-a0d2cccc164b?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
   "https://images.unsplash.com/photo-1561238160-3fd50893667f?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
-  "https://images.unsplash.com/photo-1571286264720-76bd4ee3ea85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+  "https://images.unsplash.com/photo-1551923922-a0d2cccc164b?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+  "https://images.unsplash.com/photo-1498462440456-0dba182e775b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+  "https://images.unsplash.com/photo-1573430365123-1ba5faa6b486?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+  "https://images.unsplash.com/photo-1572724013549-0f11f2a52657?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
 ];
 
 const useSrcs = () => {
